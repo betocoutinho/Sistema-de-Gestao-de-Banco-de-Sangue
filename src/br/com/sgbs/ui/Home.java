@@ -127,7 +127,7 @@ public class Home extends javax.swing.JFrame {
 
         jMenuItem6.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_I, java.awt.event.InputEvent.SHIFT_DOWN_MASK));
         jMenuItem6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/sgbs/img/Inc.png"))); // NOI18N
-        jMenuItem6.setText("Aumentar");
+        jMenuItem6.setText("Adicionar");
         jMenuItem6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jMenuItem6ActionPerformed(evt);
@@ -138,7 +138,7 @@ public class Home extends javax.swing.JFrame {
 
         jMenuItem7.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_D, java.awt.event.InputEvent.SHIFT_DOWN_MASK));
         jMenuItem7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/sgbs/img/Dec.png"))); // NOI18N
-        jMenuItem7.setText("Diminiuir");
+        jMenuItem7.setText("Remover");
         jMenuItem7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jMenuItem7ActionPerformed(evt);
