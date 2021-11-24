@@ -40,14 +40,14 @@ public class Home extends javax.swing.JFrame {
         jMenuItem4 = new javax.swing.JMenuItem();
         jSeparator3 = new javax.swing.JPopupMenu.Separator();
         jMenuItem5 = new javax.swing.JMenuItem();
+        jMenu4 = new javax.swing.JMenu();
+        jMenuItem9 = new javax.swing.JMenuItem();
         jMenu3 = new javax.swing.JMenu();
         jMenuItem6 = new javax.swing.JMenuItem();
         jSeparator4 = new javax.swing.JPopupMenu.Separator();
         jMenuItem7 = new javax.swing.JMenuItem();
         jSeparator5 = new javax.swing.JPopupMenu.Separator();
         jMenuItem8 = new javax.swing.JMenuItem();
-        jMenu4 = new javax.swing.JMenu();
-        jMenuItem9 = new javax.swing.JMenuItem();
         jMenu5 = new javax.swing.JMenu();
         jMenuItem10 = new javax.swing.JMenuItem();
         jSeparator6 = new javax.swing.JPopupMenu.Separator();
@@ -122,6 +122,21 @@ public class Home extends javax.swing.JFrame {
 
         jMenuBar1.add(jMenu2);
 
+        jMenu4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/sgbs/img/delete donor.png"))); // NOI18N
+        jMenu4.setText("Remover Doador");
+
+        jMenuItem9.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_D, java.awt.event.InputEvent.CTRL_DOWN_MASK));
+        jMenuItem9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/sgbs/img/delete.png"))); // NOI18N
+        jMenuItem9.setText("Remover Doador");
+        jMenuItem9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem9ActionPerformed(evt);
+            }
+        });
+        jMenu4.add(jMenuItem9);
+
+        jMenuBar1.add(jMenu4);
+
         jMenu3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/sgbs/img/stock.png"))); // NOI18N
         jMenu3.setText("Estoque");
 
@@ -158,21 +173,6 @@ public class Home extends javax.swing.JFrame {
         jMenu3.add(jMenuItem8);
 
         jMenuBar1.add(jMenu3);
-
-        jMenu4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/sgbs/img/delete donor.png"))); // NOI18N
-        jMenu4.setText("Remover Doador");
-
-        jMenuItem9.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_D, java.awt.event.InputEvent.CTRL_DOWN_MASK));
-        jMenuItem9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/sgbs/img/delete.png"))); // NOI18N
-        jMenuItem9.setText("Remover Doador");
-        jMenuItem9.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem9ActionPerformed(evt);
-            }
-        });
-        jMenu4.add(jMenuItem9);
-
-        jMenuBar1.add(jMenu4);
 
         jMenu5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/sgbs/img/exit.png"))); // NOI18N
         jMenu5.setText("Sair");
